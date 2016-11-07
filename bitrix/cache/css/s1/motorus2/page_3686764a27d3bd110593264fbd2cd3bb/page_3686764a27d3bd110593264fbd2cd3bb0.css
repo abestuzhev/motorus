@@ -1,0 +1,57 @@
+
+/* Start:/bitrix/templates/.default/components/bitrix/catalog/catalog-new/bitrix/catalog.element/.default/style.css*/
+#credit-info {
+	width: 800px;
+	display: none;
+}
+#credit-info .button{
+	width: 280px;
+	margin: 0 auto;
+}
+#bk_container {
+	top: 50px !important;
+}
+
+
+.catalog-item.product-details .order_notify {
+  margin-top: 18px;
+  padding: 10px;
+  width: 75%;
+  overflow: hidden;
+  position: relative;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #dbdbdb;
+  -webkit-box-shadow: 0 2px #d9d9d9;
+  -moz-box-shadow: 0 2px #d9d9d9;
+  box-shadow: 0 2px #d9d9d9;
+  border: solid 1px #ececec;
+  background-image: -webkit-linear-gradient(bottom, #ececec, #f9f9f9);
+  background-image: -moz-linear-gradient(bottom, #ececec, #f9f9f9);
+  background-image: -o-linear-gradient(bottom, #ececec, #f9f9f9);
+  background-image: linear-gradient(to top, #ececec, #f9f9f9);
+}
+
+
+.b1t-motorus-catalog-element.default .related-units h3 {
+    margin-bottom: 20px;
+}
+
+.b1t-motorus-catalog-element.default .related-units .scheme {
+   float: left;
+   width: 20%;
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+.b1t-motorus-catalog-element.default .related-units .scheme a {
+    display: block;
+    padding: 20px;
+}
+
+.b1t-motorus-catalog-element.default .related-units .scheme .scheme-title {
+    margin-bottom: 10px;
+    text-align: left;
+}
+/* End */

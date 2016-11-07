@@ -1,0 +1,58 @@
+
+/* Start:/bitrix/templates/motorus2/components/bitrix/news/calssic/bitrix/news.list/.default/style.css*/
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 14px 0 0;
+}
+.news-item {
+	overflow: hidden;
+	margin: 0 0 18px;
+}
+.news-item:last-child {
+	margin-bottom: 0;
+}
+.news-item h3 {
+	margin-top: 0;
+}
+
+.news-date-time {
+	color:#444;
+	float: right;
+}
+
+.news-text {
+	margin-left: 178px;
+}
+
+/* End */
+
+/* Start:/bitrix/templates/.default/components/bitrix/system.pagenavigation/modern/style.css*/
+div.modern-page-navigation { 
+	padding: 0.5em 0;}
+div.modern-page-navigation a, 
+span.modern-page-current, 
+span.modern-page-dots
+{
+	border-left-width: 1px;
+	border-left-style: solid;
+	padding-left: 0.75em;
+	padding-right: 0.5em;
+	text-decoration: none;
+}
+div.modern-page-navigation a.modern-page-previous { 
+	border-right-width: 1px; 
+	border-right-style: solid; 
+	border-left: none; }
+div.modern-page-navigation a.modern-page-first, 
+div.modern-page-navigation span.modern-page-first { 
+	border-left: none; 
+	padding-left: 0.5em; }
+span.modern-page-current { 
+	font-weight: bold; }
+div.modern-page-navigation a, 
+span.modern-page-current, 
+div.modern-page-navigation a.modern-page-previous, 
+span.modern-page-dots { 
+	border-color: #cdcdcd; }
+/* End */

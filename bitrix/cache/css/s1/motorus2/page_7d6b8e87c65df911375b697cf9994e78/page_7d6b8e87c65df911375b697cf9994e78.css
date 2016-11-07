@@ -1,0 +1,345 @@
+
+
+
+/* Start:/bitrix/templates/motorus2/components/bitrix/news.detail/spares_units/style.css*/
+.spares-title {
+  font-size: 18px;
+  color: #000;
+  margin: 30px 0 22px 0;
+}
+.spares-image {
+    width: 800px;
+    margin-bottom: 70px;
+}
+.spares-image img {
+  width: 100%;
+}
+.spares-filter {
+  background: #f7f7f7;
+  padding: 5px 21px;
+  margin-bottom: 32px;
+  overflow: hidden;
+  height: 1%;
+}
+.spares-filter-search {
+  float: left;
+}
+.spares-filter-search form {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 325px;
+  height: 27px;
+  background: url('/bitrix/templates/motorus2/components/bitrix/news.detail/spares_units/images/spares_filter_search.png') 0 0 no-repeat;
+  position: relative;
+}
+.spares-filter-search-input {
+  position: absolute;
+  left: 10px;
+  top: 2px;
+  width: 276px;
+  background: none;
+  border: none;
+  color: #575757;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Ubuntu", sans-serif;
+}
+.spares-filter-search-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 32px;
+  height: 26px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  cursor: hand;
+  overflow: hidden;
+  text-indent: -99999px;
+  background: url('/bitrix/templates/motorus2/components/bitrix/news.detail/spares_units/images/spares_filter_search_button.png') 0 0 no-repeat;
+}
+.spares-filter-goto {
+  float: right;
+  overflow: hidden;
+  height: 1%;
+}
+.spares-filter-goto-label {
+  float: left;
+  line-height: 26px;
+  margin-right: 10px;
+}
+.spares-filter-goto form {
+  float: right;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 85px;
+  height: 27px;
+  background: url('/bitrix/templates/motorus2/components/bitrix/news.detail/spares_units/images/spares_filter_goto.png') 0 0 no-repeat;
+  position: relative;
+}
+.spares-filter-goto-input {
+  position: absolute;
+  left: 10px;
+  top: 2px;
+  width: 37px;
+  background: none;
+  border: none;
+  color: #575757;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Ubuntu", sans-serif;
+}
+.spares-filter-goto-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 32px;
+  height: 26px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  cursor: hand;
+  overflow: hidden;
+  text-indent: -99999px;
+  background: url('/bitrix/templates/motorus2/components/bitrix/news.detail/spares_units/images/spares_filter_goto_button.png') 0 0 no-repeat;
+}
+.spares-table {
+  background: #fafafa;
+  overflow: hidden;
+  height: 1%;
+}
+.spares-table table {
+  width: 100%;
+  font-size: 14px;
+  color: #575757;
+  margin-bottom: 15px;
+}
+.spares-table table strong {
+  font-weight: normal;
+  color: #000;
+}
+.spares-table table .small {
+  font-size: 10px;
+}
+.spares-table td {
+  padding: 5px 25px;
+}
+.spares-table tbody {
+  border-top: 16px solid #f0f0f0;
+}
+.spares-table tbody tr:nth-child(even) {
+  background: #f3f3f3;
+  border: 0 solid #f3f3f3;
+  border-width: 0 1px;
+}
+.spares-table thead {
+  border-bottom: 1px solid #dfdfdf;
+}
+.spares-table th {
+  white-space: nowrap;
+  text-align: left;
+  color: #828282;
+  padding: 21px 25px 11px 25px;
+  font-weight: normal;
+}
+.spares-table-help-button {
+  width: 10px;
+  height: 11px;
+  text-indent: -9999px;
+  overflow: hidden;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  background: url('/bitrix/templates/motorus2/components/bitrix/news.detail/spares_units/images/icon_help.png') 0 0 no-repeat;
+}
+.spares-table-buy form {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 95px;
+  height: 27px;
+  background: url('/bitrix/templates/motorus2/components/bitrix/news.detail/spares_units/images/spares_table_buy.png') 0 0 no-repeat;
+  position: relative;
+}
+.spares-table-buy-input {
+  text-align: center;
+  position: absolute;
+  left: 7px;
+  top: 2px;
+  width: 32px;
+  background: none;
+  border: none;
+  color: #575757;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Ubuntu", sans-serif;
+}
+.spares-table-buy-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 32px;
+  height: 26px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  cursor: hand;
+  overflow: hidden;
+  text-indent: -99999px;
+  background: url('/bitrix/templates/motorus2/components/bitrix/news.detail/spares_units/images/spares_table_buy_button.png') 0 0 no-repeat;
+}
+
+.spares-table-buy-button.clock {
+    right: -4px;
+    top: 3px;
+    background: url('/bitrix/templates/motorus2/components/bitrix/news.detail/spares_units/images/clock.png') 0 0 no-repeat;
+}
+
+
+.spares-table-buy-plus,
+.spares-table-buy-minus {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 13px;
+  background: url('/bitrix/templates/motorus2/components/bitrix/news.detail/spares_units/images/spares_table_buy_plus_minus.png') 0 0 no-repeat;
+  overflow: hidden;
+  text-indent: -99999px;
+}
+.spares-table-buy-plus {
+  right: 32px;
+  top: 0;
+}
+.spares-table-buy-minus {
+  right: 32px;
+  top: 13px;
+  background-position: 0 -13px;
+}
+.spares-table-show-more {
+  position: relative;
+  height: 34px;
+  text-align: center;
+  margin: 0 40px 14px 40px;
+  overflow: hidden;
+}
+.spares-table-show-more i {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 100%;
+  border-top: 2px solid #e9e9e9;
+  z-index: 0;
+}
+.spares-table-show-more span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 34px;
+  margin-left: -105px;
+  display: block;
+  width: 210px;
+  background: #fafafa;
+  z-index: 1;
+}
+.spares-table-show-more a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  text-decoration: none;
+  color: #5a5a5a;
+  width: 190px;
+  text-align: center;
+  height: 31px;
+  line-height: 31px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #5a5a5a;
+  -webkit-box-shadow: inset 1px 0 rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: inset 1px 0 rgba(255, 255, 255, 0.75);
+  box-shadow: inset 1px 0 rgba(255, 255, 255, 0.75);
+  border: solid 1px #e4e4e4;
+  background-image: -webkit-linear-gradient(bottom, #e7e7e7, #f8f8f8 99%);
+  background-image: -moz-linear-gradient(bottom, #e7e7e7, #f8f8f8 99%);
+  background-image: -o-linear-gradient(bottom, #e7e7e7, #f8f8f8 99%);
+  background-image: -ms-linear-gradient(bottom, #e7e7e7, #f8f8f8 99%);
+  background-image: linear-gradient(to top, #e7e7e7, #f8f8f8 99%);
+}
+.spares-table-pagination {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.spares-table-pagination-label {
+  color: #5a5a5a;
+  margin-bottom: 12px;
+  display: none;
+}
+.spares-table-pagination-buttons {
+  margin-bottom: 10px;
+  display: none;
+}
+.spares-table-pagination-buttons a {
+  text-decoration: none;
+  color: #5a5a5a;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  height: 27px;
+  line-height: 27px;
+  padding: 0 9px;
+  margin-left: 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #5a5a5a;
+  -webkit-box-shadow: inset 1px 0 rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: inset 1px 0 rgba(255, 255, 255, 0.75);
+  box-shadow: inset 1px 0 rgba(255, 255, 255, 0.75);
+  border: solid 1px #e4e4e4;
+  background-image: -webkit-linear-gradient(bottom, #e7e7e7, #f8f8f8 99%);
+  background-image: -moz-linear-gradient(bottom, #e7e7e7, #f8f8f8 99%);
+  background-image: -o-linear-gradient(bottom, #e7e7e7, #f8f8f8 99%);
+  background-image: -ms-linear-gradient(bottom, #e7e7e7, #f8f8f8 99%);
+  background-image: linear-gradient(to top, #e7e7e7, #f8f8f8 99%);
+}
+.spares-table-pagination-buttons a:first-child {
+  margin-left: 0;
+}
+.spares-table-pagination-buttons a:hover,
+.spares-table-pagination-buttons a.active {
+  background-color: #5a5a5a;
+  -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.09);
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.09);
+  background-image: -webkit-linear-gradient(bottom, #f3f3f3, #ededed);
+  background-image: -moz-linear-gradient(bottom, #f3f3f3, #ededed);
+  background-image: -o-linear-gradient(bottom, #f3f3f3, #ededed);
+  background-image: -ms-linear-gradient(bottom, #f3f3f3, #ededed);
+  background-image: linear-gradient(to top, #f3f3f3, #ededed);
+}
+.spares-table-pagination-buttons a.active {
+  cursor: default;
+  text-decoration: none;
+}
+.spares-table-pagination-buttons a.active:active {
+  text-decoration: none;
+}
+.nowrap {
+  white-space: nowrap;
+}
+/* End */
+/* /bitrix/templates/motorus2/components/bitrix/news.detail/spares_units/style.css */

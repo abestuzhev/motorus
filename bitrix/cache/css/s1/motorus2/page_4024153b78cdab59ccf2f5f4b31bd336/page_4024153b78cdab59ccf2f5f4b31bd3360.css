@@ -1,0 +1,23 @@
+
+/* Start:/bitrix/templates/motorus2/components/bitrix/news/calssic/bitrix/news.detail/.default/style.css*/
+div.news-detail img.detail_picture
+{
+	margin: 0 0 18px;
+}
+.detail-picture-container {
+	text-align: center;
+}
+div.news-detail {
+	overflow: hidden;
+}
+div.news-detail h1 {
+	margin-top: 0;
+}
+.news-date-time
+{
+	color:#000;
+	float: right;
+	margin: 4px 0 0;
+}
+
+/* End */

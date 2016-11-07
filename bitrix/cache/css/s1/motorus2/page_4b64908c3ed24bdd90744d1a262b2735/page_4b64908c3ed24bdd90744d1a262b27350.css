@@ -1,0 +1,374 @@
+
+/* Start:/bitrix/templates/.default/components/bitrix/sale.order.ajax/order/style.css*/
+table.sale_order_full
+{
+	width:100%;
+	background-color:#F9FAFB;
+	border-collapse:collapse;
+}
+
+/*Table head*/
+table.sale_order_full th
+{
+	background-image:url('/bitrix/templates/.default/components/bitrix/sale.order.ajax/order/images/table_head.gif');
+	background-repeat:repeat-x;
+	text-align: left;
+	color:#25639A;
+}
+
+/* Table cells and heads*/
+table.sale_order_full th, table.sale_order_full td
+{
+	border:1px solid #ADC3D5;
+	padding: 3px 5px;
+	vertical-align:top;
+}
+
+table.sale_order_full_table
+{
+	width:100%;
+	/*background-color:#FFFFFF;*/
+	/*border-collapse:collapse;*/
+	/*font-size:12px;*/
+	
+	/*border:1px solid #ADC3D5;*/
+}
+
+/* Table cells and heads*/
+
+
+.sof-req{color:red;}
+.sof-ok{color:green; font-weight:bold;}
+
+/*=-------=*/
+
+#form_new {
+	/*margin-top: -20px;
+	width: 500px;*/
+}
+
+#form_new table {
+    /*   width: 100%;*/
+}
+
+.sale_order_full_table {
+/*	margin-left: 20px;*/
+}
+
+table.sale_order_full_table td{
+	/*padding: 0 0 25px 0;
+	vertical-align:top;*/
+}
+.sale_order_full_table h2 {
+/*	margin-left: -20px;
+	margin-bottom: 0 !important;
+	margin-top: 20px;*/
+}
+
+.inputtext {
+	/*width: 436px;
+	height: 36px;
+	background: url('/bitrix/templates/.default/components/bitrix/sale.order.ajax/order/images/inputtext.gif') no-repeat 0 0;
+	padding: 0 12px;
+	border: none;
+	font-size: 18px;*/
+}
+
+.inputtext.w74 {
+	/*background: url('/bitrix/templates/.default/components/bitrix/sale.order.ajax/order/images/inputtext_more.gif') no-repeat 0 0;
+	width: 50px;
+	text-align: center;*/
+}
+
+.inputtext.w119 {
+	/*background: url('/bitrix/templates/.default/components/bitrix/sale.order.ajax/order/images/inputtext_more.gif') no-repeat -74px 0;
+	width: 95px;
+	text-align: center;*/
+}
+
+.inputtext.w137 {
+	/*background: url('/bitrix/templates/.default/components/bitrix/sale.order.ajax/order/images/inputtext_more.gif') no-repeat -193px 0;
+	width: 113px;
+	text-align: center;*/
+}
+
+select {
+	/*height: 36px;
+	border: 1px #d6d6d6 solid;
+	padding: 0 0 0 10px;
+	font-size: 18px;
+	background: #efefef;*/
+}
+
+select {
+	/*//width: 460px;*/
+}
+
+#LOCATION_ORDER_PROP_5 select:first-child{
+	/*margin:0 0 20px;*/
+}
+
+textarea {
+	/*width: 436px;
+	height: 66px;
+	font: 18px Arial, Helvetica, sans-serif;
+	padding: 12px;
+	background: url('/bitrix/templates/.default/components/bitrix/sale.order.ajax/order/images/textarea.gif') no-repeat 0 0;
+	border: none;
+	resize:none;*/
+}
+
+label {
+	/*display: block;
+	margin: 0 0 6px !important;
+	font-size: 14px !important;*/
+}
+
+.button {
+/*	border: none;
+	cursor: pointer;
+	width: 468px;
+	height: 54px;
+	text-indent: -9999px;
+	background: url('/bitrix/templates/.default/components/bitrix/sale.order.ajax/order/images/button.gif') no-repeat 0 0;*/
+}
+.button:hover {
+	/*background-position: 0 -54px;*/
+}
+.button:active {
+	/*background-position: 0 -108px;*/
+}
+
+.order-side {
+	/*position: absolute !important;
+	top: 250px;
+	right: 30px;*/
+}
+
+.radio-button {
+	/*float: left;
+	margin-left: 20px;*/
+}
+
+
+/* Types of payers */
+.types-payers {
+	overflow: hidden;
+	position: absolute;
+	top: 16px;
+	left: 50%;
+	margin-left: -187px;
+}
+.types-payers input.button-type {
+	display: none;
+}
+.types-payers .person-type-1 {
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	background: url('/bitrix/templates/.default/components/bitrix/sale.order.ajax/order/images/buttons_type.jpg') no-repeat 0 0;
+	width: 176px;
+	height: 40px;
+	float: left;
+	text-indent: -9999px;
+}
+.types-payers .person-type-1.selected {
+	background-position: 0 -40px;
+}
+
+.types-payers .person-type-2 {
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	background: url('/bitrix/templates/.default/components/bitrix/sale.order.ajax/order/images/buttons_type.jpg') no-repeat -176px 0;
+	width: 194px;
+	height: 40px;
+	float: left;
+	text-indent: -9999px;
+}
+.types-payers .person-type-2.selected {
+	background-position: -176px -40px;
+}
+
+.shadow-panel {
+	margin: 13px -7px 7px;
+	width: 101.4% !important;
+}
+.form-panel {
+	margin: 33px 0 -38px !important;
+}
+.form-panel.border-panels {
+	position: relative;
+	margin: 58px 0 -25px 0 !important;
+}
+.form-panel.border-panels .float-right {
+	margin-left: 0 !important;
+}
+.form-panel.border-panels .float-left + .float-right {
+	margin-left: 37px !important;
+}
+.border-panel {
+	border: 1px solid #c5c5c5;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	height: 100%;
+}
+.border-panel .padding-section {
+	padding: 14px 12px 14px 12px;
+}
+.border-panel .padding-section .caption {
+	margin: 0 0 2px 10px;
+}
+
+.sale_order_full_table tr {
+	border-top: 1px solid #e0dfdf;
+}
+.sale_order_full_table tr:first-child {
+	border-top: none;
+}
+
+.panel-caption {
+	font: 18px/22px "Ubuntu", sans-serif;
+	display: block;
+	margin: 0 0 3px;
+}
+.panel-text {
+	display: block;
+}
+
+td.text-info {
+	padding: 12px 4px;
+}
+
+/* RADIO */
+td.radio-section {
+	padding: 16px 4px 8px 11px;
+}
+
+.regular-radio {
+	display: none;
+}
+
+.regular-radio + label {
+	-webkit-appearance: none;
+	background: url('/bitrix/templates/.default/components/bitrix/sale.order.ajax/order/images/radio_buttons.jpg') 0 0 no-repeat;
+	display: inline-block;
+	position: relative;
+	width: 16px;
+	height: 16px;
+}
+
+.regular-radio:checked + label {
+	background-position: 0 -16px;
+}
+
+.del-panel {
+	margin: 13px 0 0 0;
+}
+.del-panel label {
+	margin: 0 !important;
+}
+.del-panel tr{
+	padding: 5px 0;
+}
+.del-panel table tr {
+	padding: 0;
+}
+
+.del_caption {
+	font: 18px/22px "Ubuntu", sans-serif;
+	margin: 0 0 0 10px;
+}
+.del_subcaption {
+	font: 18px/22px "Ubuntu", sans-serif;
+}
+
+.price {
+	font: bold 18px/22px "Ubuntu", sans-serif;
+}
+
+.no-border {
+	margin: 12px 0;
+}
+.no-border tr {
+	border: none;
+}
+.no-border td {
+	padding: 0;
+}
+.del_total_container {
+	overflow: hidden;
+	position: relative;
+}
+.del_comments_container {
+	float: left;
+	width: 45%;
+	margin: -6px 0 0 24px;
+}
+.del_comments_container .textarea {
+	margin: 7px 0 0 8px;
+}
+
+.del_total_container {
+	width: 303px;
+	float: right;
+	margin: -11px 18px 22px 0;
+	text-align: right;
+}
+.del_total_container .all_summ {
+	font: 42px/44px "Ubuntu", sans-serif;
+	margin: 0 0 3px;
+}
+.del_total_container .silver {
+	font-size: 18px;
+	color: #666;
+}
+.del_radio_section {
+	padding: 16px 6px 0 10px !important;
+}
+.no-border .del_radio_section {
+	padding: 7px 6px 0 10px !important;
+}
+.del_info_section {
+	padding: 12px 0;
+}
+
+.no-border .del_info_section{
+	padding: 3px 0;
+}
+
+.min-width .check-form .float-left,
+.min-width .check-form .float-right {
+	width: 47.2% !important;
+	margin: 0 0 0 4.8% !important;
+}
+.min-width .check-form .float-left:first-child,
+.min-width .check-form .float-right:first-child {
+	margin: 0 !important;
+}
+
+.min-width .del_comments_container {
+	width: 43%;
+}
+
+#address {
+	line-height: 23px;
+}
+/* End */
+
+/* Start:/bitrix/templates/motorus2/components/bitrix/sale.ajax.locations/.default/style.css*/
+.sale_locations_fixed{
+	margin-bottom: 10px;
+}
+/* End */
+
+/* Start:/bitrix/templates/motorus2/components/bitrix/sale.ajax.locations/popup/style.css*/
+input.search-suggest {}
+div.search-popup{border: 1px solid #e1e1e1;background: #FFFFFF;padding: 2px;margin: 6px 0 0 -2px; border-top:none;}
+div.search-popup-row, div.search-popup-row-active{position: relative; padding: 2px 4px;margin: 0px;cursor: hand;cursor: pointer; font-size:12px;}
+div.search-popup-row{background:#FFFFFF;}
+div.search-popup-row-active{background:#EEEEEE;}
+div.search-popup-el-name, div.search-popup-el-cnt{position: relative; margin:0px;padding:0px;text-align:left;}
+div.search-popup-el-cnt{text-align:right; float:right;}
+/* End */

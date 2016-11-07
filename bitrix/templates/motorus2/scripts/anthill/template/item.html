@@ -1,0 +1,31 @@
+<div class="catalog-item " id="bx_-1186537760_{% info.id %}" item_id="{% info.id %}">
+    <div class="item-title"><h3><a href="/engines/{% info.id %}/">{% item.name %}</a></h3></div>
+    <div class="item-picture">
+        <a href="/engines/{% info.id %}/">
+            <img src="/upload/{% item.picture %}" alt="{% item.name %}">
+        </a>
+    </div>
+    <div class="item-info">
+        {% for (var info in info.infos){ %}
+        <div class="info-element">
+            <div class="element-name">info.name</div>
+            <div class="element-value">info.value</div>
+            <br class="float-clear">
+        </div>
+        {% } %}
+    </div>
+    <div class="item-controls">
+        <div class="controls-price">
+            13 520 руб.
+        </div>
+        <a href="/engines/?action=ADD2BASKET&amp;id={% info.id %}" rel="nofollow" class="controls-basket button-basket-middle">Добавить в корзину</a>
+        <a href="/engines/?action=ADD_TO_COMPARE_LIST&amp;id={% info.id %}" item_id="{% info.id %}" class="controls-comparison" rel="nofollow">
+            Добавить к сравнению
+        </a>
+        <a href="#" class="controls-comparison-delete" item_id="{% info.id %}">Удалить из сравнения</a>
+        <a href="#" class="docompare" onclick="$('.compare-form').submit(); return false;">
+            Сравнить
+        </a>
+        <span class="controls-nopresence">Нет на складе</span>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+span.customSelect { 
+	font: 18px/37px Arial, Helvetica, sans-serif;
+	background: #fff;
+	color:#000; 
+	height: 37px;
+	padding:0 9px;
+	margin: 0 0 14px;
+	background: url(select_fill.jpg) left 0 no-repeat;
+}
+span.customSelect:after {
+	content: "";
+    display: inline-block;
+    width: 9px;
+    height: 37px;
+    position: absolute;
+    background: url(select_fill.jpg) right 0 no-repeat;
+}
+span.customSelect.changed { 
+	background-color: #f0dea4; 
+}
+span.customSelectFocus {
+	position: relative;
+}
+.customSelectInner { 
+	background:url(item-arrow.gif) no-repeat center right; 
+}
+
+.ie7 span.customSelect{
+	border: 1px solid #777;
+}

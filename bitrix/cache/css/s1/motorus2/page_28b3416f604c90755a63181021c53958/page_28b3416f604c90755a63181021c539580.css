@@ -1,0 +1,68 @@
+
+/* Start:/bitrix/templates/motorus2/components/bitrix/news.list/home_actions/style.css*/
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+.deals-list h3 a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.advertising-container {
+	width: 320px;
+}
+
+.advertising-container p {
+	margin: 0 0 18px;
+}
+
+.advertising-caption {
+	font-size: 46px;
+	line-height: 48px;
+	margin: 40px 0 30px;
+}
+
+.advertising-text {
+	font-size: 26px;
+	line-height: 28px;
+	margin: 0 0 44px 2px;
+}
+
+.advertising-container.small-text {
+	font-size: 15px;
+	line-height: 18px;
+	width: 266px;
+	margin: 43px 0 0 0;
+}
+
+.min-width .advertising-caption {
+	font-size: 40px;
+}
+
+.min-width .advertising-text {
+	font-size: 22px;
+}
+
+.min-width .advertising-container.small-text  {
+	width: 210px;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.min-width .advertising-container p {
+	margin: 0 0 16px;
+}
+/* End */
+
+/* Start:/bitrix/templates/motorus2/components/bitrix/news.list/home_news/style.css*/
+.news-list .caption a {
+    color: inherit;
+    text-decoration: inherit;    
+}
+/* End */

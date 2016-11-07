@@ -1,0 +1,68 @@
+<%var i=0; %>
+<% for(var j in data ){ %>
+
+<% j=parseInt(j)+Singletone.Index; %>
+<% if(i>perPage){
+    window.Singletone.Index = parseInt(j);
+   break;
+}
+%>
+
+<% if(j>total-1){
+    break;
+}
+%>
+
+<div class="catalog-item " item_id="<%= data[j]['ID'] %>">
+    <div class="item-title"><h3><a href="<%= data[j]['DETAIL_PAGE_URL'] %>"><%= data[j]['NAME'] %></a></h3></div>
+    <div class="item-picture">
+        <a href="<%= data[j]['DETAIL_PAGE_URL'] %>">
+            <%if(data[j]['DETAIL_PICTURE']){%>
+            <img src="<%= data[j]['DETAIL_PICTURE'] %>" alt="<%= data[j]['NAME'] %>">
+            <% } else if(data[j]["PREVIEW_PICTURE"]) {%>
+            <img src="<%= data[j]['PREVIEW_PICTURE'] %>" alt="<%= data[j]['NAME'] %>">
+            <% } else { %>
+            <img src="http://placehold.it/160x160" alt="<%= data[j]['NAME'] %>" />
+            <% } %>
+        </a>
+    </div>
+    <div class="item-info">
+        <% for (var property in data[j]["DISPLAY_PROPERTIES"]){ %>
+        <div class="info-element">
+            <div class="element-name"><%= data[j]["DISPLAY_PROPERTIES"][property]["NAME"] %></div>
+            <div class="element-value"><%= data[j]["DISPLAY_PROPERTIES"][property]["VALUE"] %></div>
+            <br class="float-clear">
+        </div>
+        <% } %>
+    </div>
+    <div class="item-controls">
+        <div class="controls-price">
+            <% if(data[j]['PRICE']){ %>
+            <%= parseInt(data[j]['PRICE']) %> <span class="rub">руб.</span>
+            <% } %>
+        </div>
+        <a href="/engines/?action=ADD2BASKET&amp;id=<%= data[j]['ID'] %>" rel="nofollow" class="controls-basket button-basket-middle">Добавить в корзину</a>
+        <a href="/engines/?action=ADD_TO_COMPARE_LIST&amp;id=<%= data[j]['ID'] %>" item_id="<%= data[j]['ID'] %>" class="controls-comparison" rel="nofollow">
+            Добавить к сравнению
+        </a>
+        <a href="#" class="controls-comparison-delete" item_id="<%= data[j]['ID'] %>">Удалить из сравнения</a>
+        <a href="#" class="docompare" onclick="$('.compare-form').submit(); return false;">
+            Сравнить
+        </a>
+        <span class="controls-nopresence">Нет на складе</span>
+    </div>
+</div>
+    <% if(i==perPage){%>
+        <div class="more-products">
+            <a href="/engines/?bitrix_include_areas=N&amp;PAGEN_1=2">
+                <span><span class="products-caption">Больше товаров</span> ↓</span>
+                <span class="products-shown">Показано <%= j %> товаров</span>
+                <span class="products-only">Всего <%= total %></span>
+            </a>
+        </div>
+    <% } %>
+<% i++; %>
+<% } %>
+<% if(i==0){%>
+   <h2>Товаров не найдено.</h2>
+<%}%>
