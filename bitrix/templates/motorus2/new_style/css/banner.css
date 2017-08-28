@@ -3,7 +3,7 @@
     margin-left: -8px;
     margin-right: -8px;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
     font-size: 0;
 }
 .banner * {
@@ -67,6 +67,14 @@
     -ms-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
+}
+
+
+@media screen and (max-width: 917px) {
+    .banner {
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 720px) {
