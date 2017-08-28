@@ -3,6 +3,8 @@
     margin-left: -8px;
     margin-right: -8px;
     box-sizing: border-box;
+    text-align: center;
+    font-size: 0;
 }
 .banner * {
     box-sizing: border-box;
@@ -11,15 +13,19 @@
 
 .banner::after {
     content: '';
-    display: table;
-    clear: both;
+    /*display: table;*/
+    /*clear: both;*/
+    /*width: 100%;*/
+    /*display: block;*/
 }
 
 .banner-item {
     margin-bottom: 14px;
-    width: 10%;
+    /*width: 10%;*/
+    width: 121px;
     padding: 0 8px;
-    float: left;
+    /*float: left;*/
+    display: inline-block;
 }
 .banner-item:hover {
     opacity: .85;
@@ -31,7 +37,7 @@
     border: 1px solid #dddddd;
     position: relative;
     overflow: hidden;
-    padding-top: 58%;
+    height: 62px;
 }
 
 .banner-card span{
@@ -45,7 +51,7 @@
     -o-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     color: #000;
-    font-size: 2em;
+    font-size: 32px;
     font-weight: 700;
     /*text-shadow: 2px 3px 0 rgba(0, 0, 0, 1);*/
 }
@@ -65,22 +71,27 @@
 
 @media screen and (max-width: 720px) {
     .banner-item {
-        width: 16.6666%;
+        width: 119px;
         display: none;
+        padding: 0 7px;
     }
 
     .banner-item--12 {
-        display: block;
+        display: inline-block;
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 320px) {
     .banner-item {
-        width: 33.3333%;
+        width: 105px;
         display: none;
     }
 
    .banner-item--6 {
-        display: block;
+       display: inline-block;
+    }
+
+   .banner-item--6 .banner-card {
+       height:53px;
     }
 }
